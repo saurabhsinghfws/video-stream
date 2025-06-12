@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>learnXbridge - Video Stream</title>
+</head>
+<body>
+  <header>
+    <div class="header-inner" role="banner">
+      <div class="logo" aria-label="Site Logo">VideoStream</div>
+      <nav role="navigation" aria-label="Primary Navigation">
+        <a href="#" tabindex="0">Home</a>
+        <a href="#" tabindex="0">Browse</a>
+        <a href="#" tabindex="0">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" role="region" aria-label="Welcome and introduction">
+    <h1>Watch Videos Effortlessly</h1>
+    <p>Explore a curated collection of videos in a clean, focused interface designed for seamless viewing.</p>
+    <a class="btn-primary" href="#video-list" aria-label="Browse Videos">Browse Videos</a>
+  </section>
+
+  <main>
+    <section class="video-player-section" aria-label="Featured video player and details">
+      <div class="video-player-wrapper">
+        <video controls preload="metadata" tabindex="0" aria-live="polite" aria-label="Video player showing the featured video">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="video-info">
+        <h2 class="video-title">Beautiful Flowers in Bloom</h2>
+        <p class="video-description">Enjoy the calming visuals of blooming flowers captured in brilliant detail with smooth motion and vibrant colors.</p>
+      </div>
+    </section>
+
+    <section class="video-list-section" id="video-list" aria-label="List of available videos to watch">
+      <div class="container">
+        <div class="video-list-grid" role="list" tabindex="0">
+          <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" class="video-card" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Open video: Beautiful Flowers in Bloom">
+            <img
+              src="https://placehold.co/640x360?text=Flowers+Video&font=inter&color=555&bg=ededed"
+              alt="Thumbnail showing a close-up of flowers blooming in nature"
+              class="video-thumbnail"
+              loading="lazy"
+              width="640"
+              height="360"
+              decoding="async"
+            />
+            <div class="video-card-title">Beautiful Flowers in Bloom</div>
+          </a>
+          <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/ocean.mp4" class="video-card" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Open video: Waves Crashing on Shore">
+            <img
+              src="https://placehold.co/640x360?text=Ocean+Waves&font=inter&color=555&bg=ededed"
+              alt="Thumbnail showing ocean waves crashing onto a sandy shore with sunlight"
+              class="video-thumbnail"
+              loading="lazy"
+              width="640"
+              height="360"
+              decoding="async"
+            />
+            <div class="video-card-title">Waves Crashing on Shore</div>
+          </a>
+          <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/forest.mp4" class="video-card" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Open video: Sunlight Through Forest Trees">
+            <img
+              src="https://placehold.co/640x360?text=Forest+Sunlight&font=inter&color=555&bg=ededed"
+              alt="Thumbnail showing sun rays penetrating through forest trees with greenery"
+              class="video-thumbnail"
+              loading="lazy"
+              width="640"
+              height="360"
+              decoding="async"
+            />
+            <div class="video-card-title">Sunlight Through Forest Trees</div>
+          </a>
+          <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/city.mp4" class="video-card" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Open video: Timelapse Cityscape at Night">
+            <img
+              src="https://placehold.co/640x360?text=City+Timelapse&font=inter&color=555&bg=ededed"
+              alt="Thumbnail showing a city skyline at night with bright lights and traffic trails"
+              class="video-thumbnail"
+              loading="lazy"
+              width="640"
+              height="360"
+              decoding="async"
+            />
+            <div class="video-card-title">Timelapse Cityscape at Night</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
